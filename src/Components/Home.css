@@ -25,14 +25,47 @@
   background-size: 100vh;
 }
 
+/* all headings and paragraph   */
+
 .main-h1 {
-  margin: 200px 0 0 0;
-  font-size: 50px;
+  margin: 200px 0 0 30px;
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
 }
 .main-h1-front {
-  margin: 0 0 0 0;
-  font-size: 50px;
+  margin: 0 0 0 30px;
+  font-size: 30px;
   line-height: 2px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-/* picture  */
+.long-paragraph {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 25px 0 0 30px;
+  width: 700px;
+}
+em {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.profile-name {
+  font-size: 30px;
+  margin: 10px 0 20px 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aside-profile-content {
+  font-size: 20px;
+  margin: 10px 0 20px 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+/* picture Edting  */
+
+.profile-picture {
+  width: 50%;
+  height: 30%;
+  border-radius: 50%;
+  margin: 0 25% 0 25%;
+}
