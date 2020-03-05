@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* layout work  */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.aside {
+  width: 25%;
+  height: 100vh;
+  background-color: bisque;
+}
+.main {
+  width: 75%;
+  height: 100vh;
+  background-image: url(./IMG_20191123_164621.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100vh;
+}
+
+.main-h1 {
+  margin: 200px 0 0 0;
+  font-size: 50px;
+}
+.main-h1-front {
+  margin: 0 0 0 0;
+  font-size: 50px;
+  line-height: 2px;
+}
+
+/* picture  */
