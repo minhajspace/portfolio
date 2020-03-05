@@ -14,7 +14,7 @@
 .aside {
   width: 25%;
   height: 100vh;
-  background-color: bisque;
+  background-color: #f5f6f8;
 }
 .main {
   width: 75%;
@@ -58,8 +58,13 @@ em {
 
 .aside-profile-content {
   font-size: 20px;
-  margin: 10px 0 20px 50px;
+
   font-family: "Times New Roman", Times, serif;
+}
+
+.profile-picture-h1 {
+  color: rgb(37, 37, 146);
+  margin-left: 50px;
 }
 /* picture Edting  */
 
@@ -68,4 +73,23 @@ em {
   height: 30%;
   border-radius: 50%;
   margin: 0 25% 0 25%;
+}
+
+/* ul li code  */
+
+ul {
+  display: block;
+  margin: 20px 40px 0 140px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 35px;
+  list-style-type: none;
+}
+
+/* hover effect code */
+
+.home-hover:hover,
+.home-hover:active {
+  background-color: orange;
+  color: blue;
 }

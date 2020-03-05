@@ -14,10 +14,24 @@ class Home extends React.Component {
                     <h2 className="profile-name">
                         Minhaj Ahmad khan
                       </h2>
-                    <p className="aside-profile-content">
-                        Front-end Developer in Gurgram
 
+                    <p className="profile-picture-h1">  Front-end Developer in Gurgram
                     </p>
+                    <ul>
+
+                        <li className="home-hover" > <a href="#"></a>Home</li>
+                        <li> <a href="#" ></a>about</li>
+                        <li> <a href="#"></a>services</li>
+                        <li> <a href="#"></a>about</li>
+                        <li> <a href="#"></a>Education</li>
+                        <li> <a href="#"></a>about</li>
+                        <li> <a href="#"></a>blog</li>
+                        <li> <a href="#"></a>Contact Me</li>
+
+
+                    </ul>
+
+
 
                 </div>
 
