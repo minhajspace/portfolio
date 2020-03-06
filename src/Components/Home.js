@@ -18,8 +18,8 @@ class Home extends React.Component {
                     </p>
                     <ul>
 
-                        <li className="home-background" > <a href="#"></a>Home</li>
-                        <li> <a href="#" ></a>about</li>
+                        <li className="home-background " > <a href="#"></a>Home</li>
+                        <li className="about-hover"> <a href="#" ></a>about</li>
                         <li> <a href="#"></a>services</li>
 
                         <li> <a href="#"></a>Education</li>

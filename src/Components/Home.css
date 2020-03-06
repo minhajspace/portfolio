@@ -94,8 +94,11 @@ ul {
 
 /* hover effect code */
 
-.home-hover:hover,
-.home-hover:active {
-  background-color: orange;
-  color: blue;
+.home-background:hover,
+.home-background:active {
+  border: 1px solid orange;
+}
+
+.about-hover {
+  border: 1px solid orange;
 }
