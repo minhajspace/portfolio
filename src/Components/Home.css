@@ -88,6 +88,10 @@ ul {
   text-align: center;
 }
 
+.home-background {
+  color: rgb(243, 183, 71);
+}
+
 /* hover effect code */
 
 .home-hover:hover,
