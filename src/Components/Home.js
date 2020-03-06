@@ -20,12 +20,12 @@ class Home extends React.Component {
 
                         <li className="home-background " > <a href="#"></a>Home</li>
                         <li className="about-hover"> <a href="#" ></a>about</li>
-                        <li> <a href="#"></a>services</li>
+                        <li className="services-hover"> <a href="#"></a>services</li>
 
-                        <li> <a href="#"></a>Education</li>
+                        <li className="education-hover"> <a href="#"></a>Education</li>
 
-                        <li> <a href="#"></a>blog</li>
-                        <li> <a href="#"></a>Contact Me</li>
+                        <li className="blog-hover"> <a href="#"></a>blog</li>
+                        <li className="contact-hover"> <a href="#"></a>Contact Me</li>
 
 
                     </ul>

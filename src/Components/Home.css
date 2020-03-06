@@ -99,6 +99,27 @@ ul {
   border: 1px solid orange;
 }
 
-.about-hover {
+.about-hover:hover,
+.about-hover:active {
+  border: 1px solid orange;
+}
+
+.services-hover:hover,
+.services-hover:active {
+  border: 1px solid orange;
+}
+
+.education-hover:hover,
+.education-hover:active {
+  border: 1px solid orange;
+}
+
+.blog-hover:hover,
+.blog-hover:active {
+  border: 1px solid orange;
+}
+
+.contact-hover:hover,
+.contact-hover:active {
   border: 1px solid orange;
 }
