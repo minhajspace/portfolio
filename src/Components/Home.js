@@ -14,7 +14,7 @@ class Home extends React.Component {
                         Minhaj Ahmad khan
                       </h2>
 
-                    <p className="profile-picture-h1">  Front-end Developer in Gurgram
+                    <p className="profile-picture-h1">  Front-end Developer in India
                     </p>
                     <ul>
 
@@ -41,7 +41,7 @@ class Home extends React.Component {
                         <p className="long-paragraph">
                             When I’m working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.<br>
                             </br>
-                            <em>  — Freeman Dyson</em>
+                            <em><b> — Freeman Dyson</b> </em>
                         </p>
 
                     </div>

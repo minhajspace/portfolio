@@ -31,11 +31,13 @@
   margin: 200px 0 0 30px;
   font-size: 70px;
   font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
 }
 .main-h1-front {
   margin: 0 0 0 30px;
   font-size: 30px;
   line-height: 2px;
+  font-weight: 300;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -44,6 +46,8 @@
   font-size: 20px;
   margin: 25px 0 0 30px;
   width: 700px;
+  font-weight: 300;
+  color: gray;
 }
 em {
   font-size: 25px;
@@ -54,6 +58,7 @@ em {
   font-size: 30px;
   margin: 10px 0 10px 50px;
   font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
 }
 
 .aside-profile-content {
@@ -64,7 +69,7 @@ em {
 
 .profile-picture-h1 {
   color: rgb(37, 37, 146);
-  margin-right: 10px;
+  margin-right: 35px;
   text-align: center;
 }
 /* picture Edting  */
@@ -102,24 +107,29 @@ ul {
 .about-hover:hover,
 .about-hover:active {
   border: 1px solid orange;
+  color: rgb(243, 183, 71);
 }
 
 .services-hover:hover,
 .services-hover:active {
   border: 1px solid orange;
+  color: rgb(243, 183, 71);
 }
 
 .education-hover:hover,
 .education-hover:active {
   border: 1px solid orange;
+  color: rgb(243, 183, 71);
 }
 
 .blog-hover:hover,
 .blog-hover:active {
   border: 1px solid orange;
+  color: rgb(243, 183, 71);
 }
 
 .contact-hover:hover,
 .contact-hover:active {
   border: 1px solid orange;
+  color: rgb(243, 183, 71);
 }
