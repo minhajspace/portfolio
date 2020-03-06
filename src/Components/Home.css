@@ -19,10 +19,14 @@
 .main {
   width: 75%;
   height: 100vh;
-  background-image: url(./IMG_20191123_164621.png);
+  background-image: url(./background.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100vh;
+}
+.social-link-div {
+  height: 75px;
+  margin-top: 20px;
 }
 
 /* all headings and paragraph   */
@@ -81,6 +85,12 @@ em {
   margin: 0 25% 0 25%;
 }
 
+.social-media-connection-picture {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
 /* ul li code  */
 
 ul {
@@ -91,6 +101,25 @@ ul {
   line-height: 40px;
   list-style-type: none;
   text-align: center;
+}
+
+.social-media-ul {
+  display: block;
+  text-align: left;
+  padding: 0;
+  margin-left: 25px;
+}
+/* .social-media-li {
+  border: 1px solid black;
+  display: inline;
+  margin: 0;
+  padding: 0;
+} */
+.social-link-div li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  margin: 12px;
 }
 
 .home-background {
@@ -132,4 +161,9 @@ ul {
 .contact-hover:active {
   border: 1px solid orange;
   color: rgb(243, 183, 71);
+}
+
+.aside a {
+  color: black;
+  text-decoration: none;
 }

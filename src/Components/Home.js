@@ -1,6 +1,14 @@
 import React from 'react'
 import './Home.css'
-import profile from './profile.jpg'
+import profile from './profile.jpeg'
+import Education from './Education'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import GitHub from './GitHub.png'
+import facebook from './facebook.png'
+import instgram from './instagram.png'
+import codesandbox from './codesandbox.png'
+import twitter from './twitter.png'
+import linkedin from './linkedin.png'
 
 
 class Home extends React.Component {
@@ -8,7 +16,7 @@ class Home extends React.Component {
         return <>
             <div className="flex-container">
                 <div className="aside">
-                    <img className="profile-picture" src={profile} alt="profile picture">
+                    <img className="profile-picture" alt="profile pic" src={profile} >
                     </img>
                     <h2 className="profile-name">
                         Minhaj Ahmad khan
@@ -16,17 +24,33 @@ class Home extends React.Component {
 
                     <p className="profile-picture-h1">  Front-end Developer in India
                     </p>
+                    <div className="social-link-div">
+
+
+                        <ul className="social-media-ul">
+
+
+                            <li > <a href="https://twitter.com/MinhajAhmadKha7"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
+                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/"><img className=" social-media-connection-picture" alt="linkedin logo" src={linkedin}></img></a></li>
+                            <li ><a href="https://www.facebook.com/minhaj.a.khan.14"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
+                            <li ><a href="https://www.instagram.com/minhaj.mak/"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
+
+                        </ul>
+                    </div>
                     <ul>
+                        <Router>
 
-                        <li className="home-background " > <a href="#"></a>Home</li>
-                        <li className="about-hover"> <a href="#" ></a>about</li>
-                        <li className="services-hover"> <a href="#"></a>services</li>
 
-                        <li className="education-hover"> <a href="#"></a>Education</li>
 
-                        <li className="blog-hover"> <a href="#"></a>blog</li>
-                        <li className="contact-hover"> <a href="#"></a>Contact Me</li>
+                            <li className="home-background " > <a href="https://github.com/minhajspace">Home</a></li>
+                            <li className="about-hover"> <a href="#" >about</a></li>
+                            <li className="services-hover"> <a href="#">services</a></li>
 
+                            <li className="education-hover"><Link className="link" to="https://github.com/minhajspace">Education</Link> </li>
+
+                            <li className="blog-hover"> <a href="#">blog</a></li>
+                            <li className="contact-hover"> <a href="#">Contact Me</a></li>
+                        </Router>
 
                     </ul>
 
@@ -49,6 +73,7 @@ class Home extends React.Component {
                 </div>
 
             </div>
+
         </>
     }
 }
