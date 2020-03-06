@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
-import picture from './picture.jpg'
-import profile from './profile.jpg.jfif'
+import profile from './profile.jpg'
 
 
 class Home extends React.Component {
@@ -22,9 +21,9 @@ class Home extends React.Component {
                         <li className="home-hover" > <a href="#"></a>Home</li>
                         <li> <a href="#" ></a>about</li>
                         <li> <a href="#"></a>services</li>
-                        <li> <a href="#"></a>about</li>
+
                         <li> <a href="#"></a>Education</li>
-                        <li> <a href="#"></a>about</li>
+
                         <li> <a href="#"></a>blog</li>
                         <li> <a href="#"></a>Contact Me</li>
 

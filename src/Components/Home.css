@@ -52,7 +52,7 @@ em {
 
 .profile-name {
   font-size: 30px;
-  margin: 10px 0 20px 50px;
+  margin: 10px 0 10px 50px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -64,7 +64,8 @@ em {
 
 .profile-picture-h1 {
   color: rgb(37, 37, 146);
-  margin-left: 50px;
+  margin-right: 10px;
+  text-align: center;
 }
 /* picture Edting  */
 
@@ -79,11 +80,12 @@ em {
 
 ul {
   display: block;
-  margin: 20px 40px 0 140px;
+  margin: 20px 40px 0 20px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 35px;
+  line-height: 40px;
   list-style-type: none;
+  text-align: center;
 }
 
 /* hover effect code */
