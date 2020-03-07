@@ -30,10 +30,10 @@ class Home extends React.Component {
                         <ul className="social-media-ul">
 
 
-                            <li > <a href="https://twitter.com/MinhajAhmadKha7"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
-                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/"><img className=" social-media-connection-picture" alt="linkedin logo" src={linkedin}></img></a></li>
-                            <li ><a href="https://www.facebook.com/minhaj.a.khan.14"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
-                            <li ><a href="https://www.instagram.com/minhaj.mak/"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
+                            <li > <a href="https://twitter.com/MinhajAhmadKha7" target="blank"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
+                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture linked-logo" alt="linkedin logo" src={linkedin}></img></a></li>
+                            <li ><a href="https://www.facebook.com/minhaj.a.khan.14" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
+                            <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
 
                         </ul>
                     </div>
@@ -43,8 +43,8 @@ class Home extends React.Component {
 
 
                             <li className="home-background " > <a href="https://github.com/minhajspace">Home</a></li>
-                            <li className="about-hover"> <a href="#" >about</a></li>
-                            <li className="services-hover"> <a href="#">services</a></li>
+
+                            <li className="services-hover"> <a href="#">skills</a></li>
 
                             <li className="education-hover"><Link className="link" to="https://github.com/minhajspace">Education</Link> </li>
 
@@ -72,7 +72,10 @@ class Home extends React.Component {
 
                 </div>
 
+
             </div>
+
+
 
         </>
     }
