@@ -1,14 +1,14 @@
 import React from 'react'
 import './Home.css'
-import profile from './profile.jpeg'
+import profile from './image/profile.jpeg'
 import Education from './Education'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import GitHub from './GitHub.png'
-import facebook from './facebook.png'
-import instgram from './instagram.png'
-import codesandbox from './codesandbox.png'
-import twitter from './twitter.png'
-import linkedin from './linkedin.png'
+import GitHub from './image/GitHub.png'
+import facebook from './image/facebook.png'
+import instgram from './image/instagram.png'
+import codesandbox from './image/codesandbox.png'
+import twitter from './image/twitter.png'
+import linkedin from './image/linkedin.png'
 
 
 class Home extends React.Component {
