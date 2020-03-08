@@ -99,10 +99,9 @@ em {
 /* picture Edting  */
 
 .profile-picture {
-  width: 50%;
+  width: 100%;
   height: 30%;
-
-  margin: 0 25% 0 25%;
+  border-radius: 20px;
 }
 
 .social-media-connection-picture {
