@@ -24,19 +24,7 @@ class Home extends React.Component {
 
                     <p className="profile-picture-h1">  Front-end Developer in India
                     </p>
-                    <div className="social-link-div">
 
-
-                        <ul className="social-media-ul">
-
-
-                            <li > <a href="https://twitter.com/MinhajAhmadKha7" target="blank"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
-                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture linked-logo" alt="linkedin logo" src={linkedin}></img></a></li>
-                            <li ><a href="https://www.facebook.com/minhaj.a.khan.14" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
-                            <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
-
-                        </ul>
-                    </div>
                     <ul>
                         <Router>
 
@@ -53,10 +41,24 @@ class Home extends React.Component {
                         </Router>
 
                     </ul>
+                    <div className="social-link-div">
+
+
+                        <ul className="social-media-ul">
+
+
+                            <li > <a href="https://twitter.com/MinhajAhmadKha7" target="blank"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
+                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture linked-logo" alt="linkedin logo" src={linkedin}></img></a></li>
+                            <li ><a href="https://www.facebook.com/minhaj.a.khan.14" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
+                            <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
+
+                        </ul>
+                    </div>
 
 
 
                 </div>
+
 
                 <div className="main">
                     <div>

@@ -12,22 +12,21 @@
 }
 
 .aside {
-  width: 25%;
+  width: 17%;
   height: 100vh;
   background-color: #f5f6f8;
 }
 .main {
-  width: 75%;
+  width: 83%;
   height: 100vh;
   background-image: url(./image/background.jpg);
-
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100vh;
 }
 .social-link-div {
   height: 75px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .about-me {
@@ -129,7 +128,7 @@ ul {
   display: block;
   text-align: left;
   padding: 0;
-  margin-left: 25px;
+
   border: 2px solid black;
 }
 /* .social-media-li {
@@ -142,7 +141,7 @@ ul {
   margin: 0;
   padding: 0;
   display: inline;
-  margin: 12px;
+  margin: 5px;
 }
 
 .home-background {
