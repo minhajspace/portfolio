@@ -3,7 +3,7 @@ import './Home.css'
 import profile from './image/profile.jpeg'
 import Education from './Education'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import GitHub from './image/GitHub.png'
+
 import facebook from './image/facebook.png'
 import instgram from './image/instagram.png'
 import codesandbox from './image/codesandbox.png'
@@ -48,9 +48,9 @@ class Home extends React.Component {
 
 
                             <li > <a href="https://twitter.com/MinhajAhmadKha7" target="blank"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
-                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture linked-logo" alt="linkedin logo" src={linkedin}></img></a></li>
+                            <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture " alt="linkedin logo" src={linkedin}></img></a></li>
                             <li ><a href="https://www.facebook.com/minhaj.a.khan.14" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
-                            <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
+                            {/* <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li> */}
 
                         </ul>
                     </div>

@@ -26,14 +26,12 @@
 }
 .social-link-div {
   height: 75px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .about-me {
   height: 300px;
   width: 100%;
-
-  margin: 5px solid black;
 }
 
 /* all headings and paragraph   */
@@ -109,9 +107,6 @@ em {
   border-radius: 50%;
 }
 
-.linked-logo {
-  width: 50px;
-}
 /* ul li code  */
 
 ul {
@@ -138,10 +133,10 @@ ul {
   padding: 0;
 } */
 .social-link-div li {
-  margin: 0;
   padding: 0;
   display: inline;
-  margin: 5px;
+  margin: 50px 13px 0 0;
+  border: 1px solid black;
 }
 
 .home-background {
