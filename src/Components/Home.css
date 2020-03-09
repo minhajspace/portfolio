@@ -25,7 +25,7 @@
   background-size: 100vh;
 }
 .social-link-div {
-  height: 75px;
+  height: 100px;
   margin-top: 40px;
 }
 
@@ -122,20 +122,14 @@ ul {
 .social-media-ul {
   display: block;
   text-align: left;
-  padding: 0;
 
   border: 2px solid black;
 }
-/* .social-media-li {
-  border: 1px solid black;
-  display: inline;
-  margin: 0;
-  padding: 0;
-} */
+
 .social-link-div li {
   padding: 0;
   display: inline;
-  margin: 50px 13px 0 0;
+
   border: 1px solid black;
 }
 
