@@ -16,8 +16,8 @@ class Home extends React.Component {
         return <>
             <div className="flex-container">
                 <div className="aside">
-                    <img className="profile-picture" alt="profile pic" src={profile} >
-                    </img>
+                    {/* <img className="profile-picture" alt="profile pic" src={profile} >
+                    </img> */}
                     <h2 className="profile-name">
                         Minhaj Ahmad khan
                       </h2>

@@ -12,19 +12,20 @@
 }
 
 .aside {
-  width: 17%;
+  width: 14%;
   height: 100vh;
-  background-color: #4a4f5e;
+  background-color: #2c786c;
+    box-shadow: 20px 100px 100px #888888;
 }
 .main {
-  width: 83%;
+  width: 70%;
   height: 100vh;
   background-image: url(./image/background.png);
-  background-color: #d8dae0;
-
+  background-color: #faf5e4;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 100vh;
+  background-size: 500px;
+  margin-left: 10%;
 }
 .social-link-div {
   height: 100px;
@@ -82,6 +83,7 @@ em {
   margin: 10px 0 10px 50px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 200;
+  color: #faf5e4;
 }
 
 .aside-profile-content {
