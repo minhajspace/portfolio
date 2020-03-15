@@ -20,6 +20,7 @@
     box-shadow: 2px 0px 20px #888888;
     position: relative;
     z-index: 10;
+   
 }
 .main {
   width: 83%;
@@ -84,8 +85,8 @@ em {
 }
 
 .profile-name {
-  font-size: 30px;
-  margin: 10px 0 10px 50px;
+  font-size: 25px;
+  margin: 10px 0 10px 25px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 200;
   color: #faf5e4;
@@ -98,23 +99,42 @@ em {
 }
 
 .profile-picture-h1 {
-  color: rgb(37, 37, 146);
+  color:#f8b400;
   margin-right: 35px;
   text-align: center;
+  margin-left: 22px;
+  
+}
+.aside a {
+  color:#faf5e4;
+  text-decoration: none;
+
 }
 /* picture Edting  */
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border :10px solid #f8b400;
+  width:150px;
+  height: auto;
+  margin: 20px 0px 0px 50px;
+ 
+  border-radius:50%;
+  border: 10px solid #faf5e4;
+  
+  
+
+  
 }
+.profile-picture img{
+  display: block;
+}
+
+
 
 .social-media-connection-picture {
   width: 30px;
   height: auto;
   border-radius: 50%;
+ 
 }
 
 /* ul li code  */
@@ -133,14 +153,16 @@ ul {
   display: block;
   text-align: left;
 
-  border: 2px solid black;
+ 
+  padding: 8px 0 0 0;
 }
 
 .social-link-div li {
   padding: 0;
   display: inline;
 
-  border: 1px solid black;
+ 
+  padding:9px;
 }
 
 .home-background {
@@ -184,7 +206,4 @@ ul {
   color: rgb(243, 183, 71);
 }
 
-.aside a {
-  color: black;
-  text-decoration: none;
-}
+

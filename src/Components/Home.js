@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import profile from './image/profile.jpeg'
+import profile from './image/profile.png'
 import Education from './Education'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -50,7 +50,7 @@ class Home extends React.Component {
                             <li > <a href="https://twitter.com/MinhajAhmadKha7" target="blank"><img className=" social-media-connection-picture" alt="twitter logo" src={twitter}></img></a></li>
                             <li ><a href="https://www.linkedin.com/in/minhajahmadkhan/" target="blank"><img className=" social-media-connection-picture " alt="linkedin logo" src={linkedin}></img></a></li>
                             <li ><a href="https://www.facebook.com/minhaj.a.khan.14" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={facebook}></img></a></li>
-                            {/* <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li> */}
+                            <li ><a href="https://www.instagram.com/minhaj.mak/" target="blank"><img className=" social-media-connection-picture" alt="instram logo" src={instgram}></img></a></li>
 
                         </ul>
                     </div>
