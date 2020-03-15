@@ -4,6 +4,7 @@
   
 }
 
+
 /* layout work  */
 .flex-container {
   display: flex;
@@ -29,7 +30,7 @@
   background-color: #faf5e4;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 500px;
+  background-size: 600px;
   
 ;
 }
@@ -50,14 +51,23 @@
   font-size: 70px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 300;
+ position: relative;
+  animation: mymove 2s ;
+  animation-delay: 2s;
+  
+  
 }
+
 .about-me h1 {
   font-size: 30px;
   margin-top: 50px;
   font-weight: 300;
   font-family: "Times New Roman", Times, serif;
   border: 1px solid black;
+  
 }
+
+
 .about-me p {
   color: black;
   margin-top: 30px;
@@ -69,6 +79,14 @@
   line-height: 2px;
   font-weight: 300;
   font-family: "Times New Roman", Times, serif;
+  position: relative;
+  animation: mymove 3s ;
+  animation-delay: 2s;
+ 
+}
+ @keyframes mymove {
+  from {right: 60%;}
+  to {right: 0px;}
 }
 
 .long-paragraph {

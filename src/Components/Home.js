@@ -30,11 +30,11 @@ class Home extends React.Component {
 
 
 
-                            <li className="home-background " > <a href="https://github.com/minhajspace">Home</a></li>
+                            <li className="home-background " > <a href="#">Home</a></li>
 
                             <li className="services-hover"> <a href="#">skills</a></li>
 
-                            <li className="education-hover"><Link className="link" to="https://github.com/minhajspace">Education</Link> </li>
+                            <li className="education-hover"><Link className="link" to="#">Education</Link> </li>
 
                             <li className="blog-hover"> <a href="#">blog</a></li>
                             <li className="contact-hover"> <a href="#">Contact Me</a></li>
@@ -67,7 +67,7 @@ class Home extends React.Component {
                         <p className="long-paragraph">
                             When I’m working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.<br>
                             </br>
-                            <em><b> — Freeman Dyson</b> </em>
+                            <em><b className="w3-container w3-center w3-animate-top"> — Freeman Dyson</b> </em>
                         </p>
 
                     </div>
