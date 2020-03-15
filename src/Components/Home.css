@@ -14,12 +14,14 @@
 .aside {
   width: 17%;
   height: 100vh;
-  background-color: #f5f6f8;
+  background-color: #4a4f5e;
 }
 .main {
   width: 83%;
   height: 100vh;
-  background-image: url(./image/background.jpg);
+  background-image: url(./image/background.png);
+  background-color: #d8dae0;
+
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100vh;
