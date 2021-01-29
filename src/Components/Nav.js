@@ -8,17 +8,16 @@ const Nav = () => {
         console.log(dark)
     }
     return (
-        <div className="border-2 flex-wrap justify-center flex">
-
-            <div className="border-2 mx-7 my-7 lg:my-0">
+        <div className="flex-wrap justify-center flex">
+            <div className="mx-7 my-7 lg:my-0">
                 <div id="profile" className="shadow-2xl opacity-75 mx-6 lg:mx-0 bg-white">
-                    <div className="p-2 md:p-6 text-center lg:text-left">
+                    <div className="p-2 md:p-6 text-center lg:text-left border-2 ">
                         Home
                     </div>
 
                 </div>
             </div>
-            <div className="border-2 mx-7 my-7 lg:my-0">
+            <div className="mx-7 my-7 lg:my-0">
                 <div id="profile" className="shadow-2xl opacity-75 mx-6 lg:mx-0 bg-white">
                     <div className="p-2 md:p-6 text-center lg:text-left">
                         About
@@ -26,7 +25,7 @@ const Nav = () => {
 
                 </div>
             </div>
-            <div className="border-2 mx-7 my-7 lg:my-0">
+            <div className="mx-7 my-7 lg:my-0">
                 <div id="profile" className="shadow-2xl opacity-75 mx-6 lg:mx-0 bg-white">
                     <div className="p-2 md:p-6 text-center lg:text-left">
                         My Work
@@ -34,7 +33,7 @@ const Nav = () => {
 
                 </div>
             </div>
-            <div className="border-2 mx-7 my-7 lg:my-0">
+            <div className=" mx-7 my-7 lg:my-0">
                 <div id="profile" className="shadow-2xl opacity-75 mx-6 lg:mx-0 bg-white">
                     <div className="p-2 md:p-6 text-center lg:text-left">
                         My Blogs
