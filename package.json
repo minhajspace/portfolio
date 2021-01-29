@@ -12,7 +12,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
     "tailwindcss": "^2.0.2"
   },
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-     "cssbulid": "postcss src/styles/tailwind.css -o src/styles/main.css",
+    "cssbulid": "postcss src/styles/tailwind.css -o src/styles/main.css",
     "cssbulid:watch": "src/styles/tailwind.css -o src/styles/main.css -- watch"
   },
   "eslintConfig": {
