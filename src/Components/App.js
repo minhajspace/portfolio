@@ -1,13 +1,23 @@
 import React from 'react'
 import Landing from './Landing'
-import Nav from './Nav'
+import About from './About'
+import Contact from './Contact'
+import Blogs from './Blogs'
+import Works from './Works'
+import Skills from './Skills'
+import { Route, Switch } from "react-router-dom";
+
 
 const App = () => {
     return (
-        <div>
-            {/* <Nav /> */}
-            <Landing />
-        </div>
+        <Switch>
+            <Route path="/" exact component={Landing} />
+            <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/blogs" exact component={Blogs} />
+            <Route path="/works" exact component={Works} />
+            <Route path="/skills" exact component={Skills} />
+        </Switch>
     )
 }
 
