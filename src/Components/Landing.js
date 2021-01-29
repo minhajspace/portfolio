@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Nav from './Nav'
+import About from './About'
 import '../styles/landing.css'
 
 const Landing = () => {
@@ -12,7 +13,7 @@ const Landing = () => {
 
     return (
         <div>
-            <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover body ${dark ? `bg-dark` : `body`}`}>
+            <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover  ${dark ? `bg-dark` : ``}`}>
                 <Nav />
                 <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
                     <div id="profile" className={`w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0 ${dark ? `bg-color-dark` : `bg-white`}`}>
@@ -51,6 +52,7 @@ const Landing = () => {
 
             </body>
 
+            <About />
 
         </div>
     )
