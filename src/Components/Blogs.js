@@ -1,10 +1,60 @@
 import React from 'react'
+import rest from '../pics/REST_API.png'
+import Nav from './Nav'
 
 const Blogs = () => {
     return (
         <div>
-            <h1>Blogs pages</h1>
+            <Nav />
+
+            <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover flex justify-center `}>
+
+
+                <div id="profile" className={` flex  w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none opacity-75 mx-6 lg:mx-0  justify-center`}>
+
+                    <div className=" md:p-4 text-center lg:text-left text-3xl ">
+                        Blogs
+                         <hr className="w-20 " />
+
+
+                    </div>
+
+                </div>
+
+            </body>
+            <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover flex justify-center `}>
+
+
+                <div id="profile" className={` flex  w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0 border-2 p-2 justify-center`}>
+
+                    <div className="p-4 md:p-4 text-center lg:text-left border-2 p-2 w-96">
+
+
+
+                        <figure>
+                            <a href="https://minhaj.hashnode.dev/creating-rest-api-using-nodejs-expressjs-mongodb-and-mongoose" target="_blank">
+                                <img class=""
+                                    src={rest}
+                                    alt="Rest Api" /> </a>
+                        </figure>
+
+                        <div className="">
+                            <p>Creating REST API Using NodeJS, ExpressJs, MongoDB, And Mongoose</p>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+            </body>
+
+
+
         </div>
+
     )
 }
 

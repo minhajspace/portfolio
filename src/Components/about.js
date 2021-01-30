@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav'
 
 
+
 const About = () => {
     const [dark, setDark] = useState(false)
     const activeDarkMode = () => {
@@ -16,7 +17,7 @@ const About = () => {
 
                 <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
                     <div id="profile" className={`w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0 ${dark ? `bg-color-dark` : `bg-white`}`}>
-                        <div className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center profile"></div>
+
                         <div className="p-4 md:p-4 text-center lg:text-left">
                             <h3 className="text-3xl font-semibold py-4 lg:pt-0 ">About</h3>
                             <hr />
