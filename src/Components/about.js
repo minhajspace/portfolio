@@ -12,6 +12,7 @@ const About = () => {
 
     return (
         <div>
+            <Nav />
 
             <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover `}>
 

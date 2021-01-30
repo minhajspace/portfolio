@@ -24,9 +24,9 @@ const Blogs = () => {
             <body className={`font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover flex justify-center `}>
 
 
-                <div id="profile" className={` flex  w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0 border-2 p-2 justify-center`}>
+                <div id="profile" className={` flex  w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0  p-2 justify-center`}>
 
-                    <div className="p-4 md:p-4 text-center lg:text-left border-2 p-2 w-96">
+                    <div className="p-4 md:p-4 text-center lg:text-left border-2 border-indigo-600 rounded w-96">
 
 
 
