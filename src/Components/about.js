@@ -35,7 +35,7 @@ const About = () => {
                                 I'm a self-learner, I didn't learn any of the stuff I'm doing in college. As far as I know, startups are about adaptability and I think I qualify.
                             </p>
                             <div>
-                                <a className="link border-2 border-indigo-600 rounded px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white transition-colors duration-300 mr-1 " target="_blank" href="https://docs.google.com/uc?export=download&id=1dmOSsKPWuDGqTJBcBEafheukjbkK4Q1h"> Download Resume </a>
+                                <a className="link border-2 border-indigo-600 rounded px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white transition-colors duration-300 mr-1 " href="https://docs.google.com/uc?export=download&id=1dmOSsKPWuDGqTJBcBEafheukjbkK4Q1h"> Download Resume </a>
                             </div>
 
 
