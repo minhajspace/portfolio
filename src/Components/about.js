@@ -20,11 +20,11 @@ const About = () => {
                     <div id="profile" className={`w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl  opacity-75 mx-6 lg:mx-0 ${dark ? `bg-color-dark` : `bg-white`}`}>
 
                         <div className="p-4 md:p-4 text-center lg:text-left">
-                            <h3 className="text-3xl font-semibold py-4 lg:pt-0 ">About</h3>
+                            <h3 className="text-3xl font-semibold py-4 lg:pt-0 ">about me</h3>
                             <hr />
-                            <h3 className="text-2xl font-medium pt-4 lg:pt-0">Minhaj Ahmad khan</h3>
-                            <p className="pt-4 text-base font-medium flex items-center justify-center lg:justify-start"><svg className="h-4 fill-current text-green-700 pr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" /></svg>Front-End Developer</p>
-                            <p className="pt-4 text-base  flex items-center justify-center lg:justify-start font-normal font-sans ">
+                            {/* <h3 className="text-2xl font-medium pt-4 lg:pt-0">Minhaj Ahmad khan</h3> */}
+                            <p className="pt-4 text-base font-medium flex items-center justify-center lg:justify-start">I am UI Designer and Front-End Developer from Lucknow, India</p>
+                            <p className="pt-4  mb-5 text-base  flex items-center justify-center lg:justify-start font-normal font-sans ">
                                 I have learned how to break bigger problems into smaller junk
                                 In a startup, we often get into situations where the problem may look big and intimidating
 
@@ -34,9 +34,10 @@ const About = () => {
 
                                 I'm a self-learner, I didn't learn any of the stuff I'm doing in college. As far as I know, startups are about adaptability and I think I qualify.
                             </p>
-                            <div>
-                                <a className="link border-2 border-indigo-600 rounded px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white transition-colors duration-300 mr-1 " href="https://docs.google.com/uc?export=download&id=1dmOSsKPWuDGqTJBcBEafheukjbkK4Q1h"> Download Resume </a>
-                            </div>
+
+                            <a className="link border-2 border-indigo-600 rounded px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white transition-colors duration-300 mr-1 " href="https://docs.google.com/uc?export=download&id=1dmOSsKPWuDGqTJBcBEafheukjbkK4Q1h"> Download Resume </a>
+                            <img className="link border-2 border-indigo-600 rounded px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white transition-colors duration-300 mr-1 " src="" />
+
 
 
                         </div>
